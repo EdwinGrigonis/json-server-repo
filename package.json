@@ -1,18 +1,24 @@
 {
-    "name": "fake-server",
-    "version": "1.0.0",
-    "description": "fake server with fake database",
-    "engines": {
-        "node": "16.13.1"
-      },
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "author": "Edwin Grigonis",
-    "license": "ISC",
-    "dependencies": {
-      "json-server": "^8.1.2"
-    }
-  }
-  
+  "name": "feedback-app-json-server",
+  "version": "1.0.0",
+  "description": "fake data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwinGrigonis/json-server-repo.git"
+  },
+  "keywords": [
+    "json-server",
+    "database"
+  ],
+  "author": "Edwin Grigonis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwinGrigonis/json-server-repo/issues"
+  },
+  "homepage": "https://github.com/EdwinGrigonis/json-server-repo#readme"
+}
